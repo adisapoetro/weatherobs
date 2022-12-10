@@ -1,2 +1,2 @@
 exportPattern("^[[:alpha:]]+")
-import(data.table)
+importFrom(data.table, stringi)
