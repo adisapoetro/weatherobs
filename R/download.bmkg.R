@@ -13,7 +13,7 @@
 #   Check Package:             'Ctrl + Shift + E'
 #   Test Package:              'Ctrl + Shift + T'
 
-download.bmkg <- function (stasiun, attemps=5, # sometimes download fail, attempts will retry
+download.bmkg <- function (stasiun, attempts=5, # sometimes download fail, attempts will retry
                                 dest=getwd()) {
 
   for (sts in stasiun) {
