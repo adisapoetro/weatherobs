@@ -30,6 +30,13 @@ download.bmkg <- function (stasiun, attempts=5, # sometimes download fail, attem
     }
   }
 
+  read.csv.gz <- function(file)  {
+    dat <- fread(file)
+    dat$fname <- file
+    dat$fname <- stri_sub(dat$fname,-12,-8)
+    return(dat)
+  } # read data
+
 
   pth <- dest
   list <-lapply(list.files(path =pth,
