@@ -21,7 +21,8 @@ library(dplyr)
 library(lubridate)  
 
 ## Downloading the data from station 96109 and 96295
-96109_96295 <- download.bmkg(stasiun=c("96109","96295"), attempts=5)
-
-
+96109_96295 <- download.bmkg(stasiun=c("96109","96295"), attempts=5)  
+  
+You can access the list of the stations here:  
+https://aviation.bmkg.go.id/web/station.php
 
