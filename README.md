@@ -1,5 +1,5 @@
 # weatherobs
-downloading ground observation of weather data across Indonesia
+Package for downloading ground observation of weather data across Indonesia
 
 ## Install packages 
 install.packages(devtools)  
