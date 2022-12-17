@@ -2,10 +2,11 @@
 Package for downloading ground observation of weather data across Indonesia
 
 ## Install packages 
+``` r
 install.packages(devtools)  
 library(devtools)  
 install_github("adisapoetro/weatherobs")  
-
+```
 ## Install / load required packages 
 install.packages(data.table)  
 install.packages(stringi)  
