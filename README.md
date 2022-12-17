@@ -1,7 +1,7 @@
 # weatherobs
 Package for downloading ground observation of weather data from Indonesia (BMKG) and accross the world. You can access the list of the stations here:  
 https://aviation.bmkg.go.id/web/station.php.  
-The data that are downloaded in bulk since the begining of the ground observation recording untill the las recording. 
+The data that are downloaded in bulk since the begining of the ground observation recording untill the last recording. 
 
 
 ![tet2](stastiun.png)
